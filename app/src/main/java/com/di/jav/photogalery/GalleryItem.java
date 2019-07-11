@@ -3,7 +3,12 @@ package com.di.jav.photogalery;
 public class GalleryItem {
     private String mCaption;
     private String mId;
-    private String mUri;
+    private String mUrl;
+
+    @Override
+    public String toString() {
+        return mCaption;
+    }
 
     public String getCaption() {
         return mCaption;
@@ -21,16 +26,11 @@ public class GalleryItem {
         mId = id;
     }
 
-    public String getUri() {
-        return mUri;
+    public String getUrl() {
+        return mUrl;
     }
 
-    public void setUri(String uri) {
-        mUri = uri;
-    }
-
-    @Override
-    public String toString() {
-        return mCaption;
+    public void setUrl(String url) {
+        mUrl = url;
     }
 }
