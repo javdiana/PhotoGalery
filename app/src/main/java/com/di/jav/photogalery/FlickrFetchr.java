@@ -19,6 +19,8 @@ public class FlickrFetchr {
     private static final String TAG = "FlickrFetchr";
     private static final String API_KEY = "c1d9e98202286c0759c4c1179a0dbeb5";
 
+
+
     public byte[] getUrlBytes(String urlSpec) throws IOException {
         URL url = new URL(urlSpec);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -86,4 +88,5 @@ public class FlickrFetchr {
             items.add(item);
         }
     }
+
 }
