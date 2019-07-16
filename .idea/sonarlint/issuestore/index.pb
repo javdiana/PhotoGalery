@@ -8,8 +8,10 @@ P
 r
 Bapp/src/main/java/com/di/jav/photogalery/PhotoGalleryFragment.java,2\1\21497d0e306be78155e489695959dbdc097db1d2
 i
-9app/src/main/java/com/di/jav/photogalery/FlickrFetch.java,6\7\67d17335a63414166283b62473d1128e65e975fc
-i
 9app/src/main/java/com/di/jav/photogalery/GalleryItem.java,e\0\e087009f9abbdbd712ee0b53baa060892574dbf9
 r
 Bapp/src/main/java/com/di/jav/photogalery/PhotoGalleryActivity.java,e\b\eb1c983b6688278f95e10c938f6884788f5d66e3
+j
+:app/src/main/java/com/di/jav/photogalery/FlickrFetchr.java,f\d\fdd01f16e23aa554325c1b5f890d2260be6b3f51
+q
+Aapp/src/main/java/com/di/jav/photogalery/ThumbnailDownloader.java,a\5\a5358eb812c8e8f7cd5c4ced2db60ad3ed96dea1
